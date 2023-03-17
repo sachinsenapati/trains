@@ -1,0 +1,33 @@
+.Second {
+  margin: 2.5rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 2rem;
+}
+.Second > .Img {
+  width: 20rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .Second {
+    margin: 2.5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Second {
+    margin: 1.5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
+  }
+}
